@@ -10,6 +10,8 @@ public class HelloWorld {
 
         System.out.println("¡Hola " + name + "!");
         System.out.println("Hoy es: " + LocalDate.now());
+        scanner.close();
+
     }
 }
 
